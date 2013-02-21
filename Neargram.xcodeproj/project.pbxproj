@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E52148F16D6BC9600E1E153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52148E16D6BC9600E1E153 /* UIKit.framework */; };
+		0E52149116D6BC9600E1E153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52149016D6BC9600E1E153 /* Foundation.framework */; };
+		0E52149316D6BC9600E1E153 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52149216D6BC9600E1E153 /* CoreGraphics.framework */; };
+		0E52149916D6BC9600E1E153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E52149716D6BC9600E1E153 /* InfoPlist.strings */; };
+		0E52149B16D6BC9600E1E153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E52149A16D6BC9600E1E153 /* main.m */; };
+		0E52149F16D6BC9600E1E153 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E52149E16D6BC9600E1E153 /* NGAppDelegate.m */; };
+		0E5214A116D6BC9600E1E153 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5214A016D6BC9600E1E153 /* Default.png */; };
+		0E5214A316D6BC9600E1E153 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5214A216D6BC9600E1E153 /* Default@2x.png */; };
+		0E5214A516D6BC9600E1E153 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5214A416D6BC9600E1E153 /* Default-568h@2x.png */; };
+		0E5214A816D6BC9600E1E153 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5214A616D6BC9600E1E153 /* MainStoryboard.storyboard */; };
+		0E5214AB16D6BC9600E1E153 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214AA16D6BC9600E1E153 /* NGViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E52148B16D6BC9600E1E153 /* Neargram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neargram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E52148E16D6BC9600E1E153 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E52149016D6BC9600E1E153 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E52149216D6BC9600E1E153 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E52149616D6BC9600E1E153 /* Neargram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Neargram-Info.plist"; sourceTree = "<group>"; };
+		0E52149816D6BC9600E1E153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E52149A16D6BC9600E1E153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E52149C16D6BC9600E1E153 /* Neargram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Neargram-Prefix.pch"; sourceTree = "<group>"; };
+		0E52149D16D6BC9600E1E153 /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		0E52149E16D6BC9600E1E153 /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
+		0E5214A016D6BC9600E1E153 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0E5214A216D6BC9600E1E153 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0E5214A416D6BC9600E1E153 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0E5214A716D6BC9600E1E153 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0E5214A916D6BC9600E1E153 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
+		0E5214AA16D6BC9600E1E153 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E52148816D6BC9600E1E153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52148F16D6BC9600E1E153 /* UIKit.framework in Frameworks */,
+				0E52149116D6BC9600E1E153 /* Foundation.framework in Frameworks */,
+				0E52149316D6BC9600E1E153 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E52148216D6BC9600E1E153 = {
+			isa = PBXGroup;
+			children = (
+				0E52149416D6BC9600E1E153 /* Neargram */,
+				0E52148D16D6BC9600E1E153 /* Frameworks */,
+				0E52148C16D6BC9600E1E153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E52148C16D6BC9600E1E153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E52148B16D6BC9600E1E153 /* Neargram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E52148D16D6BC9600E1E153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E52148E16D6BC9600E1E153 /* UIKit.framework */,
+				0E52149016D6BC9600E1E153 /* Foundation.framework */,
+				0E52149216D6BC9600E1E153 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E52149416D6BC9600E1E153 /* Neargram */ = {
+			isa = PBXGroup;
+			children = (
+				0E52149D16D6BC9600E1E153 /* NGAppDelegate.h */,
+				0E52149E16D6BC9600E1E153 /* NGAppDelegate.m */,
+				0E5214A616D6BC9600E1E153 /* MainStoryboard.storyboard */,
+				0E5214A916D6BC9600E1E153 /* NGViewController.h */,
+				0E5214AA16D6BC9600E1E153 /* NGViewController.m */,
+				0E52149516D6BC9600E1E153 /* Supporting Files */,
+			);
+			path = Neargram;
+			sourceTree = "<group>";
+		};
+		0E52149516D6BC9600E1E153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E52149616D6BC9600E1E153 /* Neargram-Info.plist */,
+				0E52149716D6BC9600E1E153 /* InfoPlist.strings */,
+				0E52149A16D6BC9600E1E153 /* main.m */,
+				0E52149C16D6BC9600E1E153 /* Neargram-Prefix.pch */,
+				0E5214A016D6BC9600E1E153 /* Default.png */,
+				0E5214A216D6BC9600E1E153 /* Default@2x.png */,
+				0E5214A416D6BC9600E1E153 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E52148A16D6BC9600E1E153 /* Neargram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5214AE16D6BC9600E1E153 /* Build configuration list for PBXNativeTarget "Neargram" */;
+			buildPhases = (
+				0E52148716D6BC9600E1E153 /* Sources */,
+				0E52148816D6BC9600E1E153 /* Frameworks */,
+				0E52148916D6BC9600E1E153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neargram;
+			productName = Neargram;
+			productReference = 0E52148B16D6BC9600E1E153 /* Neargram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E52148316D6BC9600E1E153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Feng Zhou";
+			};
+			buildConfigurationList = 0E52148616D6BC9600E1E153 /* Build configuration list for PBXProject "Neargram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E52148216D6BC9600E1E153;
+			productRefGroup = 0E52148C16D6BC9600E1E153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E52148A16D6BC9600E1E153 /* Neargram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E52148916D6BC9600E1E153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52149916D6BC9600E1E153 /* InfoPlist.strings in Resources */,
+				0E5214A116D6BC9600E1E153 /* Default.png in Resources */,
+				0E5214A316D6BC9600E1E153 /* Default@2x.png in Resources */,
+				0E5214A516D6BC9600E1E153 /* Default-568h@2x.png in Resources */,
+				0E5214A816D6BC9600E1E153 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E52148716D6BC9600E1E153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52149B16D6BC9600E1E153 /* main.m in Sources */,
+				0E52149F16D6BC9600E1E153 /* NGAppDelegate.m in Sources */,
+				0E5214AB16D6BC9600E1E153 /* NGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E52149716D6BC9600E1E153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E52149816D6BC9600E1E153 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E5214A616D6BC9600E1E153 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5214A716D6BC9600E1E153 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E5214AC16D6BC9600E1E153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E5214AD16D6BC9600E1E153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5214AF16D6BC9600E1E153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neargram/Neargram-Prefix.pch";
+				INFOPLIST_FILE = "Neargram/Neargram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E5214B016D6BC9600E1E153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Neargram/Neargram-Prefix.pch";
+				INFOPLIST_FILE = "Neargram/Neargram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E52148616D6BC9600E1E153 /* Build configuration list for PBXProject "Neargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5214AC16D6BC9600E1E153 /* Debug */,
+				0E5214AD16D6BC9600E1E153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5214AE16D6BC9600E1E153 /* Build configuration list for PBXNativeTarget "Neargram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5214AF16D6BC9600E1E153 /* Debug */,
+				0E5214B016D6BC9600E1E153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E52148316D6BC9600E1E153 /* Project object */;
+}
