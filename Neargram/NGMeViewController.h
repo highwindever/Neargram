@@ -1,5 +1,5 @@
 //
-//  NGViewController.h
+//  NGMeViewController.h
 //  Neargram
 //
 //  Created by Feng Zhou on 2/21/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NGViewController : UIViewController
-- (IBAction)loginBtn:(id)sender;
+@interface NGMeViewController : UITableViewController
 
 @end
