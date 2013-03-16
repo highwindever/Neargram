@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1BC78D16F41F0C00048F4B /* MyPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1BC78C16F41F0B00048F4B /* MyPhotoViewController.m */; };
 		0E52148F16D6BC9600E1E153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52148E16D6BC9600E1E153 /* UIKit.framework */; };
 		0E52149116D6BC9600E1E153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52149016D6BC9600E1E153 /* Foundation.framework */; };
 		0E52149316D6BC9600E1E153 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E52149216D6BC9600E1E153 /* CoreGraphics.framework */; };
@@ -20,9 +21,25 @@
 		0E5214AB16D6BC9600E1E153 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214AA16D6BC9600E1E153 /* NGViewController.m */; };
 		0E5214B316D6C1FF00E1E153 /* NGNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214B216D6C1FF00E1E153 /* NGNearbyViewController.m */; };
 		0E5214B616D6C55800E1E153 /* NGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214B516D6C55800E1E153 /* NGMeViewController.m */; };
+		0E5214CD16D6F93200E1E153 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214B916D6F93200E1E153 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214CE16D6F93200E1E153 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214BB16D6F93200E1E153 /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214CF16D6F93200E1E153 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214BD16D6F93200E1E153 /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D016D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214BF16D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D116D6F93200E1E153 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5214C016D6F93200E1E153 /* GTMOAuth2ViewTouch.xib */; };
+		0E5214D216D6F93200E1E153 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214C416D6F93200E1E153 /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D316D6F93200E1E153 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214C616D6F93200E1E153 /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D416D6F93200E1E153 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214C816D6F93200E1E153 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D516D6F93200E1E153 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214CA16D6F93200E1E153 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D616D6F93200E1E153 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214CC16D6F93200E1E153 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E5214D816D6FC2000E1E153 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5214D716D6FC2000E1E153 /* CFNetwork.framework */; };
+		0E5214DA16D6FDA000E1E153 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5214D916D6FDA000E1E153 /* Security.framework */; };
+		0E5214DC16D6FDA900E1E153 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5214DB16D6FDA900E1E153 /* SystemConfiguration.framework */; };
+		0E5214DF16D6FF3E00E1E153 /* NGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5214DE16D6FF3D00E1E153 /* NGTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1BC78B16F41F0B00048F4B /* MyPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotoViewController.h; sourceTree = "<group>"; };
+		0E1BC78C16F41F0B00048F4B /* MyPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotoViewController.m; sourceTree = "<group>"; };
 		0E52148B16D6BC9600E1E153 /* Neargram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neargram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E52148E16D6BC9600E1E153 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E52149016D6BC9600E1E153 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +60,31 @@
 		0E5214B216D6C1FF00E1E153 /* NGNearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGNearbyViewController.m; sourceTree = "<group>"; };
 		0E5214B416D6C55800E1E153 /* NGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMeViewController.h; sourceTree = "<group>"; };
 		0E5214B516D6C55800E1E153 /* NGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMeViewController.m; sourceTree = "<group>"; };
+		0E5214B816D6F93200E1E153 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		0E5214B916D6F93200E1E153 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		0E5214BA16D6F93200E1E153 /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		0E5214BB16D6F93200E1E153 /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		0E5214BC16D6F93200E1E153 /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		0E5214BD16D6F93200E1E153 /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		0E5214BE16D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		0E5214BF16D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		0E5214C016D6F93200E1E153 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		0E5214C216D6F93200E1E153 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0E5214C316D6F93200E1E153 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		0E5214C416D6F93200E1E153 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		0E5214C516D6F93200E1E153 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		0E5214C616D6F93200E1E153 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		0E5214C716D6F93200E1E153 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		0E5214C816D6F93200E1E153 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		0E5214C916D6F93200E1E153 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		0E5214CA16D6F93200E1E153 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		0E5214CB16D6F93200E1E153 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		0E5214CC16D6F93200E1E153 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		0E5214D716D6FC2000E1E153 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0E5214D916D6FDA000E1E153 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0E5214DB16D6FDA900E1E153 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E5214DD16D6FF3D00E1E153 /* NGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTabBarViewController.h; sourceTree = "<group>"; };
+		0E5214DE16D6FF3D00E1E153 /* NGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5214DC16D6FDA900E1E153 /* SystemConfiguration.framework in Frameworks */,
+				0E5214DA16D6FDA000E1E153 /* Security.framework in Frameworks */,
+				0E5214D816D6FC2000E1E153 /* CFNetwork.framework in Frameworks */,
 				0E52148F16D6BC9600E1E153 /* UIKit.framework in Frameworks */,
 				0E52149116D6BC9600E1E153 /* Foundation.framework in Frameworks */,
 				0E52149316D6BC9600E1E153 /* CoreGraphics.framework in Frameworks */,
@@ -79,6 +124,9 @@
 		0E52148D16D6BC9600E1E153 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E5214DB16D6FDA900E1E153 /* SystemConfiguration.framework */,
+				0E5214D916D6FDA000E1E153 /* Security.framework */,
+				0E5214D716D6FC2000E1E153 /* CFNetwork.framework */,
 				0E52148E16D6BC9600E1E153 /* UIKit.framework */,
 				0E52149016D6BC9600E1E153 /* Foundation.framework */,
 				0E52149216D6BC9600E1E153 /* CoreGraphics.framework */,
@@ -89,15 +137,21 @@
 		0E52149416D6BC9600E1E153 /* Neargram */ = {
 			isa = PBXGroup;
 			children = (
+				0E5214B716D6F93100E1E153 /* gtm-oauth2 */,
+				0E5214C116D6F93200E1E153 /* JSON */,
 				0E52149D16D6BC9600E1E153 /* NGAppDelegate.h */,
 				0E52149E16D6BC9600E1E153 /* NGAppDelegate.m */,
 				0E5214A616D6BC9600E1E153 /* MainStoryboard.storyboard */,
-				0E5214B416D6C55800E1E153 /* NGMeViewController.h */,
-				0E5214B516D6C55800E1E153 /* NGMeViewController.m */,
-				0E5214B116D6C1FF00E1E153 /* NGNearbyViewController.h */,
-				0E5214B216D6C1FF00E1E153 /* NGNearbyViewController.m */,
 				0E5214A916D6BC9600E1E153 /* NGViewController.h */,
 				0E5214AA16D6BC9600E1E153 /* NGViewController.m */,
+				0E5214DD16D6FF3D00E1E153 /* NGTabBarViewController.h */,
+				0E5214DE16D6FF3D00E1E153 /* NGTabBarViewController.m */,
+				0E5214B116D6C1FF00E1E153 /* NGNearbyViewController.h */,
+				0E5214B216D6C1FF00E1E153 /* NGNearbyViewController.m */,
+				0E5214B416D6C55800E1E153 /* NGMeViewController.h */,
+				0E5214B516D6C55800E1E153 /* NGMeViewController.m */,
+				0E1BC78B16F41F0B00048F4B /* MyPhotoViewController.h */,
+				0E1BC78C16F41F0B00048F4B /* MyPhotoViewController.m */,
 				0E52149516D6BC9600E1E153 /* Supporting Files */,
 			);
 			path = Neargram;
@@ -115,6 +169,40 @@
 				0E5214A416D6BC9600E1E153 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E5214B716D6F93100E1E153 /* gtm-oauth2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E5214B816D6F93200E1E153 /* GTMHTTPFetcher.h */,
+				0E5214B916D6F93200E1E153 /* GTMHTTPFetcher.m */,
+				0E5214BA16D6F93200E1E153 /* GTMOAuth2Authentication.h */,
+				0E5214BB16D6F93200E1E153 /* GTMOAuth2Authentication.m */,
+				0E5214BC16D6F93200E1E153 /* GTMOAuth2SignIn.h */,
+				0E5214BD16D6F93200E1E153 /* GTMOAuth2SignIn.m */,
+				0E5214BE16D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.h */,
+				0E5214BF16D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.m */,
+				0E5214C016D6F93200E1E153 /* GTMOAuth2ViewTouch.xib */,
+			);
+			path = "gtm-oauth2";
+			sourceTree = "<group>";
+		};
+		0E5214C116D6F93200E1E153 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0E5214C216D6F93200E1E153 /* JSON.h */,
+				0E5214C316D6F93200E1E153 /* NSObject+SBJSON.h */,
+				0E5214C416D6F93200E1E153 /* NSObject+SBJSON.m */,
+				0E5214C516D6F93200E1E153 /* NSString+SBJSON.h */,
+				0E5214C616D6F93200E1E153 /* NSString+SBJSON.m */,
+				0E5214C716D6F93200E1E153 /* SBJsonBase.h */,
+				0E5214C816D6F93200E1E153 /* SBJsonBase.m */,
+				0E5214C916D6F93200E1E153 /* SBJsonParser.h */,
+				0E5214CA16D6F93200E1E153 /* SBJsonParser.m */,
+				0E5214CB16D6F93200E1E153 /* SBJsonWriter.h */,
+				0E5214CC16D6F93200E1E153 /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +262,7 @@
 				0E5214A316D6BC9600E1E153 /* Default@2x.png in Resources */,
 				0E5214A516D6BC9600E1E153 /* Default-568h@2x.png in Resources */,
 				0E5214A816D6BC9600E1E153 /* MainStoryboard.storyboard in Resources */,
+				0E5214D116D6F93200E1E153 /* GTMOAuth2ViewTouch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +278,17 @@
 				0E5214AB16D6BC9600E1E153 /* NGViewController.m in Sources */,
 				0E5214B316D6C1FF00E1E153 /* NGNearbyViewController.m in Sources */,
 				0E5214B616D6C55800E1E153 /* NGMeViewController.m in Sources */,
+				0E5214CD16D6F93200E1E153 /* GTMHTTPFetcher.m in Sources */,
+				0E5214CE16D6F93200E1E153 /* GTMOAuth2Authentication.m in Sources */,
+				0E5214CF16D6F93200E1E153 /* GTMOAuth2SignIn.m in Sources */,
+				0E5214D016D6F93200E1E153 /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				0E5214D216D6F93200E1E153 /* NSObject+SBJSON.m in Sources */,
+				0E5214D316D6F93200E1E153 /* NSString+SBJSON.m in Sources */,
+				0E5214D416D6F93200E1E153 /* SBJsonBase.m in Sources */,
+				0E5214D516D6F93200E1E153 /* SBJsonParser.m in Sources */,
+				0E5214D616D6F93200E1E153 /* SBJsonWriter.m in Sources */,
+				0E5214DF16D6FF3E00E1E153 /* NGTabBarViewController.m in Sources */,
+				0E1BC78D16F41F0C00048F4B /* MyPhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +411,7 @@
 				0E5214B016D6BC9600E1E153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

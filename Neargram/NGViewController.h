@@ -10,5 +10,5 @@
 
 @interface NGViewController : UIViewController
 - (IBAction)loginBtn:(id)sender;
-
+@property (nonatomic,strong)NSString* aToken;
 @end

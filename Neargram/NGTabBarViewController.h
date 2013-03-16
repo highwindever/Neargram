@@ -1,5 +1,5 @@
 //
-//  NGMeViewController.h
+//  NGTabBarViewController.h
 //  Neargram
 //
 //  Created by Feng Zhou on 2/21/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NGMeViewController : UITableViewController
+@interface NGTabBarViewController : UITabBarController
 @property (nonatomic,strong)NSString* aToken;
-@property (nonatomic, strong)NSArray* media;
 @end

@@ -59,6 +59,7 @@
 {
     static NSString *CellIdentifier = @"NearbyCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+//    UITableViewCell *cell =[[UITableViewCell alloc] init];
     cell.textLabel.text = @"Feng Zhou";
     // Configure the cell...
     
