@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NGViewController : UIViewController
+@interface NGViewController : UIViewController <UIWebViewDelegate>
 - (IBAction)loginBtn:(id)sender;
-@property (nonatomic,strong)NSString* aToken;
+@property (nonatomic, strong) UIWebView* webView;
+@property (nonatomic, strong) NSString* accessToken;
 @end
